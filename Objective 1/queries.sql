@@ -33,10 +33,11 @@ ORDER BY month_num;
 SELECT DAYOFWEEK(date_stolen) AS dow_num,
 	CASE 
 		WHEN DAYOFWEEK(date_stolen) = 1 THEN 'Sunday'
-		WHEN DAYOFWEEK(date_stolen) = 2 THEN 'Tuesday'
-        WHEN DAYOFWEEK(date_stolen) = 3 THEN 'Wednesday'
-        WHEN DAYOFWEEK(date_stolen) = 4 THEN 'Thursday'
-        WHEN DAYOFWEEK(date_stolen) = 5 THEN 'Friday'
+		WHEN DAYOFWEEK(date_stolen) = 2 THEN 'Monday'
+        WHEN DAYOFWEEK(date_stolen) = 3 THEN 'Tuesday'
+        WHEN DAYOFWEEK(date_stolen) = 4 THEN 'Wednesday'
+        WHEN DAYOFWEEK(date_stolen) = 5 THEN 'Thursday'
+        WHEN DAYOFWEEK(date_stolen) = 6 THEN 'Friday'
         ELSE 'Saturday'
 	END AS day_of_week,
     COUNT(*) AS vehicles_stolen
