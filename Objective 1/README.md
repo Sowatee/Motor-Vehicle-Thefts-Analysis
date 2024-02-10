@@ -1,5 +1,7 @@
 # Identify when vehicles are likely to be stolen
 
+Your first objective is to explore the vehicle and date fields in the stolen_vehicles table to identify when vehicles tend to be stolen.
+
 - [ ] Find the number of vehicles stolen each year
 - [ ] Find the number of vehicles stolen each month
 - [ ] Find the number of vehicles stolen each day of the week
