@@ -8,3 +8,5 @@ The police department plans to release a public service announcement to encourag
 1. Identify **when** vehicles are likely to be stolen.
 2. Identify **which** vehicles are likely to be stolen.
 3. Identify **where** vehicles are likely to be stolen.
+
+![Image of Tableau Dashboard](https://raw.githubusercontent.com/Sowatee/Motor-Vehicle-Thefts-Analysis/main/Stolen_Vehicles_Dashboard.png)
